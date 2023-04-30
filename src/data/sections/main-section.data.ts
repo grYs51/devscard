@@ -9,15 +9,14 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/astolfo.jpeg'),
+  image: import('@/assets/astolfo-512x512.png'),
   fullName: 'Grace Bulckens',
   role: 'Angular Frontend Developer',
   details: [
-    { label: 'Email', value: 'info@grys.me', url: 'mailto:info@grace.me' },
+    { label: 'Email', value: 'info@grys.me', url: 'mailto:info@grys.me' },
     { label: 'From', value: 'Antwerp, Belgium' },
   ],
   pdfDetails: [
-    // { label: 'Phone', value: '605 475 6961' },
     { label: 'Email', value: 'info@grys.me' },
     { label: 'LinkedIn', value: '/in/grace.bulcken', url: 'https://linkedin.com' },
     { label: 'GitHub', value: '/grys51', url: 'https://github.com' },
