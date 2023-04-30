@@ -17,6 +17,19 @@ skill({ name: '...' }) — returns skill object with a custom name.
 skill({ description: '...' }) — returns skill with a description displayed when user hovers over it.
 
 */
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#DD0031',
+  url: 'https://angular.io/',
+});
+
+export const angularUniversal = createSkillFactory({
+  name: 'Angular Universal',
+  icon: 'simple-icons:angularuniversal',
+  iconColor: '#DD0031',
+  url: 'https://angular.io/guide/universal',
+});
 
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
@@ -46,11 +59,25 @@ export const cypress = createSkillFactory({
   url: 'https://www.cypress.io/',
 });
 
+export const dotnet = createSkillFactory({
+  name: '.NET',
+  icon: 'simple-icons:dotnet',
+  iconColor: '#5C2D91',
+  url: 'https://dotnet.microsoft.com/',
+});
+
 export const eslint = createSkillFactory({
   name: 'ESLint',
   icon: 'simple-icons:eslint',
   iconColor: '#4B32C3',
   url: 'https://eslint.org/',
+});
+
+export const express = createSkillFactory({
+  name: 'Express',
+  icon: 'simple-icons:express',
+  iconColor: '#000000',
+  url: 'https://expressjs.com/',
 });
 
 export const firebase = createSkillFactory({
@@ -74,6 +101,13 @@ export const mongoDb = createSkillFactory({
   url: 'https://www.mongodb.com/',
 });
 
+// export const ngrx = createSkillFactory({
+//   name: 'NgRx',
+//   icon: 'simple-icons:ngrx',
+//   iconColor: '#B52E31',
+//   url: 'https://ngrx.io/',
+// });
+
 export const nestJs = createSkillFactory({
   name: 'NestJS',
   icon: 'simple-icons:nestjs',
@@ -93,6 +127,13 @@ export const nx = createSkillFactory({
   icon: 'simple-icons:nx',
   iconColor: '#143055',
   url: 'https://nx.dev/',
+});
+
+export const php = createSkillFactory({
+  name: 'PHP',
+  icon: 'simple-icons:php',
+  iconColor: '#777BB4',
+  url: 'https://www.php.net/',
 });
 
 export const pnpm = createSkillFactory({
@@ -116,6 +157,13 @@ export const prettier = createSkillFactory({
   url: 'https://prettier.io/',
 });
 
+export const prisma = createSkillFactory({
+  name: 'Prisma',
+  icon: 'simple-icons:prisma',
+  iconColor: '#2D3748',
+  url: 'https://www.prisma.io/',
+});
+
 export const react = createSkillFactory({
   name: 'React.js',
   icon: 'simple-icons:react',
@@ -135,6 +183,20 @@ export const sass = createSkillFactory({
   icon: 'simple-icons:sass',
   iconColor: '#CC6699',
   url: 'https://sass-lang.com/',
+});
+
+export const solid = createSkillFactory({
+  name: 'Solid',
+  icon: 'simple-icons:solid',
+  iconColor: '#3482F6',
+  url: 'https://www.solidjs.com/',
+});
+
+export const sqlServer = createSkillFactory({
+  name: 'SQL Server',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#CC2927',
+  url: 'https://www.microsoft.com/en-us/sql-server/sql-server-2019',
 });
 
 export const supabase = createSkillFactory({
@@ -163,4 +225,11 @@ export const vue = createSkillFactory({
   icon: 'simple-icons:vuedotjs',
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
+});
+
+export const yarn = createSkillFactory({
+  name: 'Yarn',
+  icon: 'simple-icons:yarn',
+  iconColor: '#2C8EBB',
+  url: 'https://yarnpkg.com/',
 });

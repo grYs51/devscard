@@ -1,24 +1,23 @@
 import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
+import { nlBE } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: enUS,
+    locale: nlBE,
     dateFormat: 'MMMM yyyy',
     translations: {
       now: 'now',
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Grace Bulckens - Angular Frontend Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'Grace Bulckens is a frontend developer with a passion for Angular. She is currently working at Euricom, a consultancy company in Belgium.',
+    faviconPath: '/src/assets/astolfo.jpeg',
   },
   pdf: {
-    footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+    footer: 'Curious about my work experience? Check out my LinkedIn profile or download my resume.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 

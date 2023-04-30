@@ -11,20 +11,12 @@ const educationSectionData = {
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2014.10'), new Date('2016.07')],
-      description: 'Master degree. Specialization in software development.',
-      links: [website({ url: '#' })],
-    },
-    {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
-      links: [website({ url: '#' })],
+      title: 'Electronics-ICT',
+      institution: 'Artesis Plantijn Hogeschool Antwerpen, Belgium',
+      image: import('@/assets/logos/ap.jpg'),
+      dates: [new Date('2018.09'), new Date('2022.06')],
+      description: "Bachelor's degree. Specialization in cloud computing.",
+      links: [website({ url: 'https://www.ap.be/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;

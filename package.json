@@ -11,7 +11,7 @@
   },
   "scripts": {
     "postinstall": "npm run generate-favicons",
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "prebuild": "move-file ./src/pages/pdf.astro ./src/pages/_pdf.astro && npm run generate-favicons",
     "build": "astro build",
     "postbuild": "move-file ./src/pages/_pdf.astro ./src/pages/pdf.astro",
