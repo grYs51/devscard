@@ -1,10 +1,10 @@
 import type { Config } from '@/types/data';
-import { nlBE } from 'date-fns/locale';
+import { enGB } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: nlBE,
+    locale: enGB,
     dateFormat: 'MMMM yyyy',
     translations: {
       now: 'now',

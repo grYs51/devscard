@@ -7,7 +7,9 @@ import {
   cypress,
   dotnet,
   eslint,
+  express,
   jest,
+  postgreSql,
   sass,
   sqlServer,
   tailwindCss,
@@ -47,6 +49,28 @@ const portfolioSectionData = {
         tags: [angular(), angularUniversal(), sass(), eslint(), jest(), cypress()],
       },
       links: [website({ url: 'https://www.jaap.nl' })],
+    },
+    {
+      name: 'SnapLAN Ticketshop',
+      image: import('@/assets/portfolio/snaplan-logo.png'),
+      dates: [new Date('2023-03'), new Date('2023-05')],
+      details: [
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Full-stack Developer'] },
+        { label: 'Company', value: 'SnapLAN' },
+        { label: 'Category', value: ['Web app'] },
+      ],
+      screenshots: [
+        { src: import('@/assets/portfolio/snaplan-screenshot-1.png'), alt: 'Homepage SnapLan' },
+        { src: import('@/assets/portfolio/snaplan-screenshot-2.png'), alt: 'Admin panel' },
+      ],
+      description:
+        "SnapLAN is a ticketshop for LAN parties. It's a web application that allows users to buy tickets for LAN parties and manage their account. It also allows admins to manage the events and the users. The application is built with Angular and TailwindCSS for the front-end and express server as backend. The database is a PostgreSQL database. People can login with their Discord account. The application is hosted on Locally with a proxy on cloudflare.",
+      tagsList: {
+        title: 'Technologies',
+        tags: [angular(), tailwindCss(), typescript(), express(), postgreSql()],
+      },
+      links: [],
     },
     {
       name: 'EURICOM - FULL-STACK .NET BOOTCAMP CASE 2022',

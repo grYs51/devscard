@@ -31,8 +31,7 @@ const experienceSectionData = {
       company: 'Zimmo',
       image: import('@/assets/logos/zimmo.png'),
       dates: [new Date('2022-10'), null],
-      description: `
-      `,
+      description: `Zimmo is the second largest real estate platform in Belgium, attracting 6.2 million monthly visitors with over 110,000 real estate advertisements.Their user-friendly website, app, and innovative tools make the buying/selling process more transparent and understandable for all parties. They provide extra information about properties, such as price history and a powerful online estimation tool, to make users smarter.`,
       tagsList: {
         title: 'Technologies',
         tags: [angular(), angularUniversal(), php(), typescript(), jest()],
@@ -41,7 +40,6 @@ const experienceSectionData = {
         facebook({ url: 'https://www.facebook.com/zimmo.be/' }),
         linkedin({ url: 'https://www.linkedin.com/company/zimmo-be' }),
         website({ url: 'https://zimmo.be' }),
-        website({ url: 'https://jaap.nl' }),
       ],
     },
 
